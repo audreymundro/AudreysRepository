@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Driver Quiz</title>
+</head>
+<body style="background-color: #daf6ec; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+    <h1>Which Current Grid Formula 1 Driver Are You?</h1>
+    <h3>Take this quiz to find out which Formula 1 driver matches your personality!</h3>
+    <!---Here is an image of the 2025 F1 grid teams --->
+    <img width= "400" src="f1teams.png" alt="no pic">
+    <form action="results.html" method="get">
+    <p>What is your favorite F1 Team?
+        <select name="select" id="select">
+            <option value="f1 team">--Choose an option--</option>
+            <option value="ferrari">Ferrari</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="redbull">RedBull</option>
+            <option value="mclaren">Mclaren</option>
+            <option value="astonmartin">Aston Martin</option>
+            <option value="vcarb">VCARB</option>
+            <option value="haas">Haas</option>
+            <option value="sauber">Sauber</option>
+            <option value="williams">Williams</option>
+            <option value="alpine">Alpine</option>
+        </select></p>
+        <!---Here is an image of the 2025 F1 grid drivers --->
+        <img width="400" src="f1grid2025.jpg" alt="no pic">
+    <p>Who is your favorite F1 Driver?
+        <select name="select" id="select">
+            <option value="f1 driver">--Choose an option--</option>
+            <option value="leclerc">Charles Leclerc</option>
+            <option value="verstappen">Max Verstappen</option>
+            <option value="hamilton">Lewis Hamilton</option>
+            <option value="norris">Lando Norris</option>
+            <option value="piastri">Oscar Piastri</option>
+            <option value="russell">George Russell</option>
+            <option value="sainz">Carlos Sainz</option>
+            <option value="alonso">Fernando Alonso</option>
+        </select></p>
+    <p>What do you like to drink?</p>
+        <input type="radio" name="drink" value="coffee" id="option 1">
+        <label for="option 1">Coffee</label>
+        <br>
+        <input type="radio" name="drink" value="tea" id="option 2">
+        <label for="option 2">Tea</label>
+        <br>
+        <input type="radio" name="drink" value="water" id="option 3">
+        <label for="option 3">Water</label>
+        <br>
+        <input type="radio" name="drink" value="energy drink" id="option 4">
+        <label for="option 4">Energy Drink</label>
+        <br><br>
+    <p>What is your favorite type of music?</p>
+        <input type="radio" name="music" value="pop" id="option 1">
+        <label for="option 1">Pop</label>
+        <br>
+        <input type="radio" name="music" value="rock" id="option 2">
+        <label for="option 2">Rock</label>
+        <br>
+        <input type="radio" name="music" value="hip hop" id="option 3">
+        <label for="option 3">Hip Hop</label>
+        <br>
+        <input type="radio" name="music" value="classical" id="option 4">
+        <label for="option 4">Classical</label>
+        <br>
+        <p>What is your favorite thing about F1?</p>
+        <textarea style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" name="textarea1" id="textarea" placeholder="What do you like the most?"></textarea>
+        <br><br>
+        <!---Submit button leads to results page--->
+        <a href="results.html"><input type="submit" value="Submit Quiz">
+        </form>
+    </body>
+</html>
